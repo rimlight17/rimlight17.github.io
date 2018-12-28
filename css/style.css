@@ -81,9 +81,9 @@ a:visited{
 } */
 .main-bg{
   background:url('../assets/yaya.jpg') no-repeat 0 0/cover;
-  /* height: 100vh; */
-  max-width: 100%;
-  height: auto;
+  height: 100vh;
+  /* max-width: 100%;
+  height: auto; */
 }
 /* 푸터 */
 .footer{
