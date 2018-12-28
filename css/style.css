@@ -45,7 +45,7 @@ a:visited{
  vertical-align: middle;
 }
 .owner{
-  color: rgb(17, 34, 49);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 0 0 rgb(116, 24, 111), 0 1px 0 rgb(168, 59, 163), -1px 0 0 rgb(168, 59, 163),0 -1px 0 rgb(168, 59, 163)
 }
 
@@ -75,3 +75,58 @@ a:visited{
   font-weight: 900;
   text-decoration: underline;
 } 
+/* 인덱스 페이지의 배경이미지 지정 */
+/* .content{
+  background:yellow;
+} */
+.main-bg{
+  background:url('../assets/yaya.jpg') no-repeat 0 0/cover;
+  height: 100vh;
+}
+/* 푸터 */
+.footer{
+  background: #fff;
+  box-shadow: 0 -1px 10px 0 #333;
+}
+.main-bg .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* 저작권 */
+.copyright{
+  display: block;
+  text-align: center;
+  padding: 2em;
+}
+/* 인덱스 페이지 education 세션 */
+.education{
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: center;
+  padding: 1px 0 20px;
+  margin: 100px, 0;
+}
+.education-title{
+  font-size: 6rem;
+
+}
+.education-place{
+  font-size: 2rem;
+  
+}
+/* 인트로듀스 페이지의 어바웃미 섹션 */
+.about-me{
+  padding: 20px 100px;
+  /* width: 1024px;
+  margin: 0 auto; */
+}
+.about-photo{
+  width: 100%;
+
+}
+.about-photo img{
+  max-width: 100%;
+  height: auto;
+}
